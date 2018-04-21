@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Uth-AU-L5L">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Welcome To Florists-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Florist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower7" translatesAutoresizingMaskIntoConstraints="NO" id="7d6-a0-FqD">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9sm-rA-Ssh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="KKt-Py-lPI" userLabel="BodyText">
+                                <rect key="frame" x="33" y="163" width="255" height="272"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="272" id="5ZB-MT-0n5"/>
+                                    <constraint firstAttribute="width" constant="255" id="sg5-Ie-avD"/>
+                                </constraints>
+                                <string key="text">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing or trailing with stems that are often armed with sharp prickles. Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and northwestern Africa. Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses, to climbers that can reach seven meters in height. Different species hybridize easily, and this has been used in the development of the wide range of garden roses.</string>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="16"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.69999998807907104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7s3-fe-Wj4" userLabel="BottomBtn">
+                                <rect key="frame" x="0.0" y="511" width="320" height="57"/>
+                                <color key="backgroundColor" red="0.062331517070000002" green="0.37968367889999999" blue="0.059078991310000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="OWG-wm-fPD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <state key="normal" title="Curated Rose Collections">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ggM-S2-44Y" kind="show" id="cJ2-cd-Ura"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Florists" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjv-tj-PFe" userLabel="App-Title">
+                                <rect key="frame" x="59" y="115" width="203" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="9mn-d6-VbA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-CondensedExtraBold" family="Futura" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WIa-4J-m6D">
+                                <rect key="frame" x="64" y="439" width="19" height="64"/>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iyq-QO-nQ2" userLabel="TwitterBtn">
+                                <rect key="frame" x="238" y="439" width="55" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="jqb-Ao-CVa"/>
+                                </constraints>
+                                <state key="normal" image="twitter"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AMl-El-iSA" userLabel="FacebookBtn">
+                                <rect key="frame" x="33" y="439" width="59" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="9dC-pm-vMG"/>
+                                </constraints>
+                                <state key="normal" image="facebook"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pni-s0-Isr" userLabel="YoutubeBtn">
+                                <rect key="frame" x="131" y="439" width="64" height="56"/>
+                                <state key="normal" image="youtube"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPa-1y-wdD" userLabel="FacebookBtn">
+                                <rect key="frame" x="32" y="439" width="55" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="55" id="apc-0t-2WF"/>
+                                </constraints>
+                                <state key="normal" image="facebook"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="bottom" secondItem="9sm-rA-Ssh" secondAttribute="bottom" id="2UT-iP-3zp"/>
+                            <constraint firstItem="TPa-1y-wdD" firstAttribute="bottom" secondItem="pni-s0-Isr" secondAttribute="bottom" id="3Dj-R1-vvf"/>
+                            <constraint firstItem="pni-s0-Isr" firstAttribute="leading" secondItem="WIa-4J-m6D" secondAttribute="trailing" constant="48" id="5Py-0Z-5Z5"/>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="top" secondItem="9sm-rA-Ssh" secondAttribute="top" id="6Md-dp-iqF"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="top" secondItem="pni-s0-Isr" secondAttribute="bottom" constant="16" id="8ny-DN-Afu"/>
+                            <constraint firstItem="Iyq-QO-nQ2" firstAttribute="top" secondItem="pni-s0-Isr" secondAttribute="top" id="Afp-G7-68n"/>
+                            <constraint firstItem="pni-s0-Isr" firstAttribute="leading" secondItem="TPa-1y-wdD" secondAttribute="trailing" constant="44" id="Bj0-3C-xun"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CB3-xV-Hhd"/>
+                            <constraint firstItem="AMl-El-iSA" firstAttribute="bottom" secondItem="Iyq-QO-nQ2" secondAttribute="bottom" id="CT6-RC-KO4"/>
+                            <constraint firstItem="Wjv-tj-PFe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="Dpb-8N-5bq"/>
+                            <constraint firstItem="TPa-1y-wdD" firstAttribute="top" secondItem="WIa-4J-m6D" secondAttribute="top" id="GN3-oO-TjG"/>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="GvE-Lc-iex"/>
+                            <constraint firstItem="KKt-Py-lPI" firstAttribute="centerX" secondItem="9sm-rA-Ssh" secondAttribute="centerX" id="Ivi-qR-OKI"/>
+                            <constraint firstItem="pni-s0-Isr" firstAttribute="leading" secondItem="WIa-4J-m6D" secondAttribute="trailing" constant="48" id="JZi-0S-9Pv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wjv-tj-PFe" secondAttribute="trailing" constant="58" id="LEl-pf-WZt"/>
+                            <constraint firstItem="Iyq-QO-nQ2" firstAttribute="leading" secondItem="pni-s0-Isr" secondAttribute="trailing" constant="43" id="M8f-mC-dx5"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="top" secondItem="WIa-4J-m6D" secondAttribute="bottom" constant="8" symbolic="YES" id="Mq5-Ql-MHU"/>
+                            <constraint firstItem="KKt-Py-lPI" firstAttribute="top" secondItem="Wjv-tj-PFe" secondAttribute="bottom" constant="18" id="N2X-B4-Fw4"/>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PNV-Gy-l17"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="UcK-uM-xAD"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="V6k-2G-pME"/>
+                            <constraint firstItem="AMl-El-iSA" firstAttribute="leading" secondItem="KKt-Py-lPI" secondAttribute="leading" id="W5c-8x-Lo9"/>
+                            <constraint firstItem="pni-s0-Isr" firstAttribute="leading" secondItem="AMl-El-iSA" secondAttribute="trailing" constant="39" id="Xpn-Nw-XKz"/>
+                            <constraint firstItem="AMl-El-iSA" firstAttribute="bottom" secondItem="pni-s0-Isr" secondAttribute="bottom" constant="4" id="Za8-bM-lzf"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ZmF-GD-Ci0"/>
+                            <constraint firstItem="Iyq-QO-nQ2" firstAttribute="leading" secondItem="pni-s0-Isr" secondAttribute="trailing" constant="43" id="bRc-NG-4Bo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Wjv-tj-PFe" secondAttribute="trailing" constant="58" id="cPy-OB-Dhw"/>
+                            <constraint firstItem="Wjv-tj-PFe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="59" id="df7-gx-bjY"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="e0v-Uc-A4A"/>
+                            <constraint firstItem="7s3-fe-Wj4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="edu-3J-kM7"/>
+                            <constraint firstItem="WIa-4J-m6D" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="fow-Jh-2zo"/>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="gZ8-ZP-eBp"/>
+                            <constraint firstItem="AMl-El-iSA" firstAttribute="top" secondItem="pni-s0-Isr" secondAttribute="top" id="hkR-hB-2gI"/>
+                            <constraint firstItem="9sm-rA-Ssh" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iYR-Ur-hSD"/>
+                            <constraint firstItem="9sm-rA-Ssh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jqC-Gf-0dQ"/>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="9sm-rA-Ssh" secondAttribute="leading" id="mMy-gk-C3T"/>
+                            <constraint firstItem="9sm-rA-Ssh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="mob-Gl-hvk"/>
+                            <constraint firstItem="AMl-El-iSA" firstAttribute="top" secondItem="WIa-4J-m6D" secondAttribute="top" id="mxY-FY-VwJ"/>
+                            <constraint firstItem="KKt-Py-lPI" firstAttribute="top" secondItem="Wjv-tj-PFe" secondAttribute="bottom" constant="18" id="oMF-9J-yWf"/>
+                            <constraint firstItem="KKt-Py-lPI" firstAttribute="centerX" secondItem="7d6-a0-FqD" secondAttribute="centerX" id="ojh-GV-HfW"/>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pzM-1M-3UY"/>
+                            <constraint firstItem="7d6-a0-FqD" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="r63-lW-gC5"/>
+                            <constraint firstItem="Wjv-tj-PFe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="51" id="rHt-8d-MGl"/>
+                            <constraint firstItem="9sm-rA-Ssh" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="tuG-kp-qlB"/>
+                            <constraint firstItem="KKt-Py-lPI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="33" id="wHK-Qo-VZ1"/>
+                            <constraint firstItem="AMl-El-iSA" firstAttribute="top" secondItem="KKt-Py-lPI" secondAttribute="bottom" constant="4" id="xGg-FT-SEf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Welcome To Florists" id="FZE-pL-mjh">
+                        <barButtonItem key="backBarButtonItem" title=" " id="1jJ-8n-vHA"/>
+                        <barButtonItem key="rightBarButtonItem" title="Buy" image="shop1" style="plain" id="WwT-63-ZNV">
+                            <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <segue destination="N8H-ng-aRl" kind="show" id="wdm-fU-Ktv"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="170.625" y="-266.19718309859155"/>
+        </scene>
+        <!--Collections-->
+        <scene sceneID="DNz-sE-vQz">
+            <objects>
+                <viewController id="ggM-S2-44Y" customClass="ViewController" customModule="Florist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xEy-qP-3IO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower7" translatesAutoresizingMaskIntoConstraints="NO" id="pgh-SD-Rby">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJ3-Ij-OIY">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.85000002384185791" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0b-wk-YRg" userLabel="BottomBtn">
+                                <rect key="frame" x="0.0" y="501" width="320" height="67"/>
+                                <color key="backgroundColor" red="0.062331517070000002" green="0.37968367889999999" blue="0.059078991310000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="67" id="afn-zd-Zvf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <state key="normal" title="How to Order">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="N8H-ng-aRl" kind="show" id="XhB-fv-pJI"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qmx-kh-DwV">
+                                <rect key="frame" x="25" y="102" width="271" height="364"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7MO-by-1Lj">
+                                        <rect key="frame" x="0.0" y="0.0" width="271" height="85"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower9" translatesAutoresizingMaskIntoConstraints="NO" id="2o4-ef-2cg">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="Z7r-M3-qVN"/>
+                                                    <constraint firstAttribute="height" constant="85" id="gFO-ea-72I"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower3" translatesAutoresizingMaskIntoConstraints="NO" id="kVJ-Ru-1jk">
+                                                <rect key="frame" x="85" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="keP-cV-nyB"/>
+                                                    <constraint firstAttribute="height" constant="85" id="lE9-ru-arL"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower2" translatesAutoresizingMaskIntoConstraints="NO" id="v0y-eD-TEE">
+                                                <rect key="frame" x="170" y="0.0" width="101" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="85" id="Grp-3K-Sfq"/>
+                                                    <constraint firstAttribute="height" constant="85" id="hhj-Wq-pHm"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2ch-MO-VTT">
+                                        <rect key="frame" x="0.0" y="93" width="271" height="85"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower1" translatesAutoresizingMaskIntoConstraints="NO" id="xfX-c6-Krg">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="eYa-la-k8R"/>
+                                                    <constraint firstAttribute="height" constant="85" id="fag-e9-6os"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower2" translatesAutoresizingMaskIntoConstraints="NO" id="mdu-uo-Oog">
+                                                <rect key="frame" x="93" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="fRL-RJ-sX1"/>
+                                                    <constraint firstAttribute="width" constant="85" id="ko3-BB-b3W"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower3" translatesAutoresizingMaskIntoConstraints="NO" id="pvE-XI-m4j">
+                                                <rect key="frame" x="186" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="YzT-Eq-tl1"/>
+                                                    <constraint firstAttribute="width" constant="85" id="sKS-z9-Zok"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="2hM-KU-8Dy">
+                                        <rect key="frame" x="0.0" y="186" width="271" height="85"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower4" translatesAutoresizingMaskIntoConstraints="NO" id="vjX-kJ-M2h">
+                                                <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="dQM-J9-uOy"/>
+                                                    <constraint firstAttribute="height" constant="85" id="uaZ-MZ-SEG"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower5" translatesAutoresizingMaskIntoConstraints="NO" id="GcM-Vt-8sh">
+                                                <rect key="frame" x="93" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="XiS-yl-Svq"/>
+                                                    <constraint firstAttribute="width" constant="85" id="bTY-WY-dsi"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower6" translatesAutoresizingMaskIntoConstraints="NO" id="QaT-Gk-PsI">
+                                                <rect key="frame" x="186" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="2YR-bR-CXF"/>
+                                                    <constraint firstAttribute="height" constant="85" id="tug-Lz-fIp"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="DXf-do-fNN">
+                                        <rect key="frame" x="0.0" y="279" width="271" height="85"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="YrQ-Wz-Sov">
+                                                <rect key="frame" x="0.0" y="0.0" width="0.0" height="85"/>
+                                            </stackView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower7" translatesAutoresizingMaskIntoConstraints="NO" id="hXf-Xv-BHl">
+                                                <rect key="frame" x="8" y="0.0" width="77" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="c5L-YI-Dis"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower8" translatesAutoresizingMaskIntoConstraints="NO" id="cEK-zF-ww6">
+                                                <rect key="frame" x="93" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="85" id="FRq-bQ-Pr1"/>
+                                                    <constraint firstAttribute="width" constant="85" id="Rjv-tO-V2p"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower5" translatesAutoresizingMaskIntoConstraints="NO" id="Daj-gi-UBL">
+                                                <rect key="frame" x="186" y="0.0" width="85" height="85"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="85" id="1h0-pn-pRN"/>
+                                                    <constraint firstAttribute="height" constant="85" id="htF-AX-Qez"/>
+                                                </constraints>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qmx-kh-DwV" firstAttribute="centerX" secondItem="xEy-qP-3IO" secondAttribute="centerX" id="0ha-wM-cdk"/>
+                            <constraint firstItem="pgh-SD-Rby" firstAttribute="top" secondItem="GoN-Ah-7SW" secondAttribute="top" id="3b8-MP-HLf"/>
+                            <constraint firstItem="G0b-wk-YRg" firstAttribute="bottom" secondItem="GoN-Ah-7SW" secondAttribute="bottom" id="8rn-GA-9el"/>
+                            <constraint firstItem="Qmx-kh-DwV" firstAttribute="centerY" secondItem="xEy-qP-3IO" secondAttribute="centerY" id="BHH-Zn-3Fk"/>
+                            <constraint firstItem="pgh-SD-Rby" firstAttribute="trailing" secondItem="GoN-Ah-7SW" secondAttribute="trailing" id="BgA-1R-vdU"/>
+                            <constraint firstItem="G0b-wk-YRg" firstAttribute="leading" secondItem="GoN-Ah-7SW" secondAttribute="leading" id="KJ2-85-JbK"/>
+                            <constraint firstItem="pgh-SD-Rby" firstAttribute="leading" secondItem="GoN-Ah-7SW" secondAttribute="leading" id="Pv1-MA-dde"/>
+                            <constraint firstItem="G0b-wk-YRg" firstAttribute="trailing" secondItem="GoN-Ah-7SW" secondAttribute="trailing" id="RDn-5e-dxp"/>
+                            <constraint firstItem="pJ3-Ij-OIY" firstAttribute="top" secondItem="xEy-qP-3IO" secondAttribute="top" id="WFZ-rB-eB6"/>
+                            <constraint firstItem="pJ3-Ij-OIY" firstAttribute="bottom" secondItem="GoN-Ah-7SW" secondAttribute="bottom" id="ai4-wL-wDT"/>
+                            <constraint firstItem="pJ3-Ij-OIY" firstAttribute="leading" secondItem="GoN-Ah-7SW" secondAttribute="leading" id="gbr-qL-s86"/>
+                            <constraint firstItem="G0b-wk-YRg" firstAttribute="trailing" secondItem="GoN-Ah-7SW" secondAttribute="trailing" id="ojh-0g-S0f"/>
+                            <constraint firstItem="pgh-SD-Rby" firstAttribute="bottom" secondItem="GoN-Ah-7SW" secondAttribute="bottom" id="vE3-l7-Txg"/>
+                            <constraint firstItem="G0b-wk-YRg" firstAttribute="leading" secondItem="GoN-Ah-7SW" secondAttribute="leading" id="vc1-h7-Ui8"/>
+                            <constraint firstItem="pJ3-Ij-OIY" firstAttribute="trailing" secondItem="GoN-Ah-7SW" secondAttribute="trailing" id="y2X-Pv-caV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GoN-Ah-7SW"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Collections" id="Qzq-TS-UlG">
+                        <barButtonItem key="backBarButtonItem" title=" " id="DAC-KK-m3R"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oXB-oq-Mfl" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="897" y="-259"/>
+        </scene>
+        <!--Order-->
+        <scene sceneID="LWA-Rm-7Tr">
+            <objects>
+                <viewController id="N8H-ng-aRl" customClass="ViewController" customModule="Florist" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yhi-wc-KRG">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower7" translatesAutoresizingMaskIntoConstraints="NO" id="9b1-Ek-EO1">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="513"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999998807907104" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="80K-xF-Jgb">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" alpha="0.84999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMx-pV-027" userLabel="BottomBtn">
+                                <rect key="frame" x="0.0" y="511" width="320" height="57"/>
+                                <color key="backgroundColor" red="0.062331517070000002" green="0.37968367889999999" blue="0.059078991310000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="ikA-6d-dyk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                                <state key="normal" title="Sweet Home">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hio-lY-ujo">
+                                <rect key="frame" x="33" y="92" width="255" height="384"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="384" id="lDQ-VW-Axj"/>
+                                </constraints>
+                                <string key="text">A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae, or the flower it bears. There are over a hundred species and thousands of cultivars. They form a group of plants that can be erect shrubs, climbing or trailing with stems that are often armed with sharp prickles. Flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. veniam, quis nostrud </string>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OMx-pV-027" firstAttribute="bottom" secondItem="80K-xF-Jgb" secondAttribute="bottom" id="2Ib-QT-EgT"/>
+                            <constraint firstItem="9b1-Ek-EO1" firstAttribute="trailing" secondItem="pzv-h1-O9u" secondAttribute="trailing" id="2aR-Gb-aYt"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="trailing" secondItem="pzv-h1-O9u" secondAttribute="trailing" constant="-32" id="3J0-Dr-DM5"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="bottom" secondItem="9b1-Ek-EO1" secondAttribute="bottom" constant="-37" id="3n8-v6-fgo"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="top" secondItem="pzv-h1-O9u" secondAttribute="top" constant="28" id="BXc-qo-VtX"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="leading" secondItem="pzv-h1-O9u" secondAttribute="leading" constant="33" id="F8I-JZ-8az"/>
+                            <constraint firstItem="9b1-Ek-EO1" firstAttribute="trailing" secondItem="hio-lY-ujo" secondAttribute="trailing" constant="32" id="KSp-9B-QTF"/>
+                            <constraint firstItem="OMx-pV-027" firstAttribute="leading" secondItem="hio-lY-ujo" secondAttribute="leading" constant="-33" id="Kq3-j6-Xrw"/>
+                            <constraint firstItem="OMx-pV-027" firstAttribute="bottom" secondItem="pzv-h1-O9u" secondAttribute="bottom" id="MSd-YG-BBX"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="trailing" secondItem="80K-xF-Jgb" secondAttribute="trailing" constant="-32" id="Mm0-6r-n5L"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="leading" secondItem="80K-xF-Jgb" secondAttribute="leading" constant="33" id="NOd-a4-AFW"/>
+                            <constraint firstAttribute="bottom" secondItem="OMx-pV-027" secondAttribute="bottom" id="PkL-gI-4wf"/>
+                            <constraint firstAttribute="trailing" secondItem="OMx-pV-027" secondAttribute="trailing" id="VTs-6R-BhZ"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="trailing" secondItem="pzv-h1-O9u" secondAttribute="trailing" constant="-32" id="WK2-RR-aX0"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="bottom" secondItem="80K-xF-Jgb" secondAttribute="bottom" constant="-92" id="X5U-rS-fVr"/>
+                            <constraint firstItem="80K-xF-Jgb" firstAttribute="leading" secondItem="pzv-h1-O9u" secondAttribute="leading" id="Yhs-0Z-Yio"/>
+                            <constraint firstItem="OMx-pV-027" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="80K-xF-Jgb" secondAttribute="trailing" id="bQo-XM-UQb"/>
+                            <constraint firstAttribute="trailing" secondItem="9b1-Ek-EO1" secondAttribute="trailing" id="bdh-0I-3Bz"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="leading" secondItem="Yhi-wc-KRG" secondAttribute="leading" constant="33" id="cSS-RH-blR"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="top" secondItem="pzv-h1-O9u" secondAttribute="top" constant="28" id="ciY-N6-VXG"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="leading" secondItem="pzv-h1-O9u" secondAttribute="leading" constant="33" id="hI2-pJ-R4k"/>
+                            <constraint firstItem="80K-xF-Jgb" firstAttribute="trailing" secondItem="pzv-h1-O9u" secondAttribute="trailing" id="hJq-Kw-fIg"/>
+                            <constraint firstItem="hio-lY-ujo" firstAttribute="top" secondItem="80K-xF-Jgb" secondAttribute="top" constant="92" id="hdf-uw-VNZ"/>
+                            <constraint firstItem="9b1-Ek-EO1" firstAttribute="top" secondItem="Yhi-wc-KRG" secondAttribute="top" id="iy1-cC-G3Y"/>
+                            <constraint firstItem="9b1-Ek-EO1" firstAttribute="leading" secondItem="pzv-h1-O9u" secondAttribute="leading" id="rb3-8H-eEF"/>
+                            <constraint firstItem="OMx-pV-027" firstAttribute="leading" secondItem="Yhi-wc-KRG" secondAttribute="leading" id="s4K-cI-d4w"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pzv-h1-O9u"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Order" id="zjb-eS-yJh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m6J-0R-t97" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1714" y="-266"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ENw-EC-brp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Uth-AU-L5L" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Z3W-3x-N9h">
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="20"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="pWo-r4-kGb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ugj-Rg-Hlo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-608" y="-260"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="facebook" width="64" height="64"/>
+        <image name="flower1" width="400" height="370"/>
+        <image name="flower2" width="400" height="400"/>
+        <image name="flower3" width="220" height="220"/>
+        <image name="flower4" width="236" height="236"/>
+        <image name="flower5" width="500" height="550"/>
+        <image name="flower6" width="280" height="280"/>
+        <image name="flower7" width="497" height="463"/>
+        <image name="flower8" width="300" height="300"/>
+        <image name="flower9" width="300" height="236"/>
+        <image name="shop1" width="24" height="24"/>
+        <image name="twitter" width="64" height="64"/>
+        <image name="youtube" width="64" height="64"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="wdm-fU-Ktv"/>
+    </inferredMetricsTieBreakers>
+</document>
