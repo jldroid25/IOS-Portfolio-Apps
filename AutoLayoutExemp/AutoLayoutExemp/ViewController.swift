@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Florist
+//  AutoLayoutExemp
 //
-//  Created by JL on 4/17/18.
+//  Created by JL on 4/25/18.
 //  Copyright © 2018 jldroidSwift25. All rights reserved.
 //
 

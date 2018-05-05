@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39478450209C153000E4A618 /* SampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3947844F209C153000E4A618 /* SampleViewController.swift */; };
+		39478452209C155B00E4A618 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39478451209C155B00E4A618 /* OrderViewController.swift */; };
 		39983D8B20865AFC00D95889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39983D8A20865AFC00D95889 /* AppDelegate.swift */; };
 		39983D8D20865AFC00D95889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39983D8C20865AFC00D95889 /* ViewController.swift */; };
 		39983D9020865AFC00D95889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39983D8E20865AFC00D95889 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3947844F209C153000E4A618 /* SampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleViewController.swift; sourceTree = "<group>"; };
+		39478451209C155B00E4A618 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
 		39983D8720865AFC00D95889 /* BedFord  Florist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BedFord  Florist.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39983D8A20865AFC00D95889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39983D8C20865AFC00D95889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3947844E209C14F400E4A618 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39983D8C20865AFC00D95889 /* ViewController.swift */,
+				3947844F209C153000E4A618 /* SampleViewController.swift */,
+				39478451209C155B00E4A618 /* OrderViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		39983D7E20865AFC00D95889 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +68,8 @@
 		39983D8920865AFC00D95889 /* Florist */ = {
 			isa = PBXGroup;
 			children = (
+				3947844E209C14F400E4A618 /* Controllers */,
 				39983D8A20865AFC00D95889 /* AppDelegate.swift */,
-				39983D8C20865AFC00D95889 /* ViewController.swift */,
 				39983D8E20865AFC00D95889 /* Main.storyboard */,
 				39983D9120865B0000D95889 /* Assets.xcassets */,
 				39983D9320865B0000D95889 /* LaunchScreen.storyboard */,
@@ -137,6 +151,8 @@
 			files = (
 				39983D8D20865AFC00D95889 /* ViewController.swift in Sources */,
 				39983D8B20865AFC00D95889 /* AppDelegate.swift in Sources */,
+				39478450209C153000E4A618 /* SampleViewController.swift in Sources */,
+				39478452209C155B00E4A618 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
