@@ -14,7 +14,8 @@ class ChannelVC: UIViewController {
         super.viewDidLoad()
         
         //Enlarge the channel window view by 60% of the screen view
-        self.revealViewController().rearViewRevealWidth = self.view.frame.size.width - 60
+        self.revealViewController().rearViewRevealWidth =
+            self.view.frame.size.width - 60
 
         
     }
