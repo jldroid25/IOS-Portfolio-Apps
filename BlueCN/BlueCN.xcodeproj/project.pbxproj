@@ -18,6 +18,7 @@
 		394CFE54209E5921008AA264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394CFE52209E5921008AA264 /* Main.storyboard */; };
 		394CFE56209E5924008AA264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394CFE55209E5924008AA264 /* Assets.xcassets */; };
 		394CFE59209E5924008AA264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394CFE57209E5924008AA264 /* LaunchScreen.storyboard */; };
+		39C6B51620A3BDEA00B5AC9D /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C6B51520A3BDEA00B5AC9D /* AuthService.swift */; };
 		A41901E059B9BFAFFD87E324 /* Pods_BlueCN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD99E2093F64580FEEC13DB7 /* Pods_BlueCN.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		394CFE55209E5924008AA264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		394CFE58209E5924008AA264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		394CFE5A209E5924008AA264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C6B51520A3BDEA00B5AC9D /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		639C198B113936C953AC35E0 /* Pods-BlueCN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCN/Pods-BlueCN.debug.xcconfig"; sourceTree = "<group>"; };
 		9A31B50B2DECDA6861382FD4 /* Pods-BlueCN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCN.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCN/Pods-BlueCN.release.xcconfig"; sourceTree = "<group>"; };
 		FD99E2093F64580FEEC13DB7 /* Pods_BlueCN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueCN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +128,7 @@
 		394CFE4D209E5921008AA264 /* BlueCN */ = {
 			isa = PBXGroup;
 			children = (
+				39C6B51420A3BDC500B5AC9D /* Services */,
 				39029583209E92DC0017832C /* Utilities */,
 				3902957C209E62920017832C /* Model */,
 				3902957B209E628B0017832C /* View */,
@@ -139,6 +142,14 @@
 				394CFE5A209E5924008AA264 /* Info.plist */,
 			);
 			path = BlueCN;
+			sourceTree = "<group>";
+		};
+		39C6B51420A3BDC500B5AC9D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				39C6B51520A3BDEA00B5AC9D /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		9D3E34CC716001E9CA56E0AA /* Pods */ = {
@@ -289,6 +300,7 @@
 				39029580209E62F20017832C /* ChannelVC.swift in Sources */,
 				394CFE4F209E5921008AA264 /* AppDelegate.swift in Sources */,
 				391D9A3120A38BD200D9E28D /* CreateAccountVC.swift in Sources */,
+				39C6B51620A3BDEA00B5AC9D /* AuthService.swift in Sources */,
 				39029587209EA3020017832C /* LoginVC.swift in Sources */,
 				39029582209E76F50017832C /* GradientView.swift in Sources */,
 				3902957E209E62D90017832C /* chatVC.swift in Sources */,
