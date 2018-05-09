@@ -7,4 +7,8 @@
 //
 
 import Foundation
+// Segue Identifiers
 let TO_LOGIN = "tologin"
+
+let TO_CREATE_ACCOUNT  = "toCreateAccount"
+let UNWIND = "unwindToChannel"
