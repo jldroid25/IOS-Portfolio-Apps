@@ -23,6 +23,7 @@
 		39C6B51C20A4129400B5AC9D /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C6B51B20A4129400B5AC9D /* UserDataService.swift */; };
 		39C6B51E20A496DD00B5AC9D /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C6B51D20A496DD00B5AC9D /* AvatarPickerVC.swift */; };
 		39C6B52020A4A55800B5AC9D /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C6B51F20A4A55800B5AC9D /* AvatarCell.swift */; };
+		39C6B52220A4C3D000B5AC9D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C6B52120A4C3D000B5AC9D /* CircleImage.swift */; };
 		A41901E059B9BFAFFD87E324 /* Pods_BlueCN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD99E2093F64580FEEC13DB7 /* Pods_BlueCN.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,7 @@
 		39C6B51B20A4129400B5AC9D /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		39C6B51D20A496DD00B5AC9D /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		39C6B51F20A4A55800B5AC9D /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		39C6B52120A4C3D000B5AC9D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		639C198B113936C953AC35E0 /* Pods-BlueCN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCN/Pods-BlueCN.debug.xcconfig"; sourceTree = "<group>"; };
 		9A31B50B2DECDA6861382FD4 /* Pods-BlueCN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueCN.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueCN/Pods-BlueCN.release.xcconfig"; sourceTree = "<group>"; };
 		FD99E2093F64580FEEC13DB7 /* Pods_BlueCN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueCN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +101,7 @@
 				39C6B51720A3C67B00B5AC9D /* GradientView.swift */,
 				39C6B51920A3DFF400B5AC9D /* RoundedButton.swift */,
 				39C6B51F20A4A55800B5AC9D /* AvatarCell.swift */,
+				39C6B52120A4C3D000B5AC9D /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				39029580209E62F20017832C /* ChannelVC.swift in Sources */,
 				39C6B51E20A496DD00B5AC9D /* AvatarPickerVC.swift in Sources */,
 				39C6B51A20A3DFF400B5AC9D /* RoundedButton.swift in Sources */,
+				39C6B52220A4C3D000B5AC9D /* CircleImage.swift in Sources */,
 				394CFE4F209E5921008AA264 /* AppDelegate.swift in Sources */,
 				39C6B51C20A4129400B5AC9D /* UserDataService.swift in Sources */,
 				391D9A3120A38BD200D9E28D /* CreateAccountVC.swift in Sources */,
