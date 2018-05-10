@@ -23,8 +23,16 @@ class CreateAccountVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-      
+    }
     
+    //Update the user profile with image selected
+    //From AvatarPicker
+    override func viewDidAppear(_ animated: Bool) {
+        if UserDataService.instance.avatarName != "" {
+            userImg.image = UIImage(named: UserDataService.instance.avatarName)
+            //set the name of the avatar
+            avatarName = UserDataService.instance.avatarName
+        }
     }
 
     //Create ACC Close btn to bing us back to channel VC
