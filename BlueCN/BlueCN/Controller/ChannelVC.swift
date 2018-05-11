@@ -33,7 +33,16 @@ class ChannelVC: UIViewController {
     
     //Perform segue action for the login button to show login View Controller
     @IBAction func loginBtnPressed(_ sender: Any) {
-        performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        
+        //If we're already loggedIn take us the modal profile
+        if AuthService.instance.isLoggedIn {
+            //Show profile page
+            let profile = ProfileVC()
+            profile.modalPresentationStyle = .custom
+            present(profile, animated: true, completion: nil)
+        } else {
+            performSegue(withIdentifier: TO_LOGIN, sender: nil)
+        }
     }
     
     @objc  func userDatadidChange(_ notif: Notification){
