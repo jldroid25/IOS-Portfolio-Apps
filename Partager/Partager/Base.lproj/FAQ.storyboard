@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--FAQ-->
+        <scene sceneID="b1e-ee-eNo">
+            <objects>
+                <viewController storyboardIdentifier="FAQ" title="FAQ" id="roe-0w-Q5Q" customClass="ViewController" customModule="Partager" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jFf-ca-FXO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F A Q" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rgj-Kp-u2R">
+                                <rect key="frame" x="80" y="39" width="214" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="Ag4-X8-tND"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="26"/>
+                                <color key="textColor" red="0.96862745100000003" green="0.92549019610000005" blue="0.8862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.51417846540000001" green="0.60336131800000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KVL-p3-5ZR">
+                                <rect key="frame" x="16" y="202" width="343" height="378"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="378" id="gP7-6n-otD"/>
+                                    <constraint firstAttribute="height" constant="378" id="yu2-kc-kGM"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knp-H5-O1t">
+                                <rect key="frame" x="47" y="698" width="299" height="80"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="Tfo-IZ-uvz"/>
+                                    <constraint firstAttribute="height" constant="80" id="jAM-ku-UIe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="57"/>
+                                <state key="normal" title="Term Cond">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="termsCond_btn:" destination="roe-0w-Q5Q" eventType="touchUpInside" id="mTC-eu-ror"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.4039215686" green="0.46666666670000001" blue="0.52156862749999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="knp-H5-O1t" firstAttribute="leading" secondItem="cJ2-hq-NGY" secondAttribute="leading" constant="47" id="0Rh-nj-dMg"/>
+                            <constraint firstItem="cJ2-hq-NGY" firstAttribute="trailing" secondItem="Rgj-Kp-u2R" secondAttribute="trailing" constant="81" id="23u-pS-00f"/>
+                            <constraint firstItem="cJ2-hq-NGY" firstAttribute="trailing" secondItem="knp-H5-O1t" secondAttribute="trailing" constant="29" id="2WL-pj-24V"/>
+                            <constraint firstItem="knp-H5-O1t" firstAttribute="top" secondItem="KVL-p3-5ZR" secondAttribute="bottom" constant="118" id="3mf-JA-PQM"/>
+                            <constraint firstItem="Rgj-Kp-u2R" firstAttribute="leading" secondItem="cJ2-hq-NGY" secondAttribute="leading" constant="80" id="Sie-Lo-fRJ"/>
+                            <constraint firstItem="Rgj-Kp-u2R" firstAttribute="top" secondItem="jFf-ca-FXO" secondAttribute="topMargin" constant="-5" id="Umt-8F-5iA"/>
+                            <constraint firstItem="cJ2-hq-NGY" firstAttribute="trailing" secondItem="KVL-p3-5ZR" secondAttribute="trailing" constant="16" id="dc6-co-Cud"/>
+                            <constraint firstItem="KVL-p3-5ZR" firstAttribute="leading" secondItem="cJ2-hq-NGY" secondAttribute="leading" constant="16" id="joZ-NC-CeQ"/>
+                            <constraint firstItem="knp-H5-O1t" firstAttribute="bottom" secondItem="cJ2-hq-NGY" secondAttribute="bottom" id="oAr-tp-8Pl"/>
+                            <constraint firstItem="knp-H5-O1t" firstAttribute="top" secondItem="KVL-p3-5ZR" secondAttribute="bottom" constant="118" id="pwD-XN-pcF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cJ2-hq-NGY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uSW-S0-2eo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4852" y="117"/>
+        </scene>
+    </scenes>
+</document>
